@@ -1,0 +1,20 @@
+INDEX VERSION 1.134+D:\BADJI\Spring_Boot_Projet_formation\.metadata\.plugins\org.eclipse.jdt.core
+2816378625.index
+1865797976.index
+3459741768.index
+1238027058.index
+1464370322.index
+1285249135.index
+1966949194.index
+3918949326.index
+561287327.index
+1055475796.index
+2117405698.index
+542094340.index
+2471102463.index
+176289609.index
+261027985.index
+2721323314.index
+550671311.index
+68440974.index
+290092911.index

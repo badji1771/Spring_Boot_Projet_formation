@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.example.demo.model.ReportGenerator;
+import com.example.demo.service.ReportService;
+
+@Configuration
+public class ReportConfig {
+
+	@Bean
+	public ReportService reportGenerator(ReportGenerator reportGenerator) {
+		return new ReportService(reportGenerator);
+	}
+}

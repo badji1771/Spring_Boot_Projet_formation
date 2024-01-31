@@ -1,0 +1,25 @@
+package com.example.demo.service;
+
+
+import com.example.demo.model.ReportGenerator;
+
+
+public class ReportService {
+
+
+	
+	private ReportGenerator reportGenerator ;
+	
+	
+	
+	public ReportService(ReportGenerator reportGenerator) {
+		super();
+		this.reportGenerator = reportGenerator;
+	}
+
+
+
+	public void generateReport() {
+		reportGenerator.generate();
+	}
+}
