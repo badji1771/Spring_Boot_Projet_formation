@@ -1,0 +1,76 @@
+2024-01-31T15:41:54.004Z  INFO 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : Starting CoffeeMachine0Application using Java 21.0.2 with PID 31600 (D:\BADJI\Spring_Boot_Projet_formation\CoffeeMachine0\target\classes started by reg_mbadji in D:\BADJI\Spring_Boot_Projet_formation\CoffeeMachine0)
+2024-01-31T15:41:54.005Z DEBUG 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-01-31T15:41:54.005Z  INFO 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : No active profile set, falling back to 1 default profile: "default"
+2024-01-31T15:41:54.034Z  INFO 31600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-01-31T15:41:54.037Z  INFO 31600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-01-31T15:41:54.441Z  INFO 31600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-31T15:41:54.470Z  INFO 31600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-01-31T15:41:54.757Z  INFO 31600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-31T15:41:54.764Z  INFO 31600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-31T15:41:54.764Z  INFO 31600 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-31T15:41:54.792Z  INFO 31600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-31T15:41:54.792Z  INFO 31600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 754 ms
+2024-01-31T15:41:54.807Z  INFO 31600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-01-31T15:41:54.916Z  INFO 31600 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d8bd9b20-75f2-4c86-aa88-b9689351b6e7 user=SA
+2024-01-31T15:41:54.918Z  INFO 31600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-01-31T15:41:54.925Z  INFO 31600 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d8bd9b20-75f2-4c86-aa88-b9689351b6e7'
+2024-01-31T15:41:54.991Z  INFO 31600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-31T15:41:55.019Z  INFO 31600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-01-31T15:41:55.040Z  INFO 31600 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-31T15:41:55.145Z  INFO 31600 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-31T15:41:55.562Z  INFO 31600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-31T15:41:55.580Z  INFO 31600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-31T15:41:55.879Z  WARN 31600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-31T15:41:56.083Z  INFO 31600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-31T15:41:56.107Z  INFO 31600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-31T15:41:56.111Z  INFO 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : Started CoffeeMachine0Application in 2.325 seconds (process running for 2.703)
+2024-01-31T15:42:10.413Z  INFO 31600 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-31T15:42:10.413Z  INFO 31600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-01-31T15:42:10.414Z  INFO 31600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-01-31T15:42:10.765Z  INFO 31600 --- [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 145 ms
+2024-01-31T15:42:30.702Z TRACE 31600 --- [http-nio-8080-exec-4] org.formation.model.Coffee               : ====================>trace
+2024-01-31T15:42:30.702Z DEBUG 31600 --- [http-nio-8080-exec-4] org.formation.model.Coffee               : ====================>debug
+2024-01-31T15:42:30.702Z  INFO 31600 --- [http-nio-8080-exec-4] org.formation.model.Coffee               : ====================>info
+2024-01-31T15:42:30.702Z  WARN 31600 --- [http-nio-8080-exec-4] org.formation.model.Coffee               : ====================>warn
+2024-01-31T15:42:30.702Z ERROR 31600 --- [http-nio-8080-exec-4] org.formation.model.Coffee               : ====================>error
+2024-01-31T15:44:43.739Z TRACE 31600 --- [http-nio-8080-exec-10] org.formation.model.Coffee               : ====================>trace
+2024-01-31T15:44:43.739Z DEBUG 31600 --- [http-nio-8080-exec-10] org.formation.model.Coffee               : ====================>debug
+2024-01-31T15:44:43.739Z  INFO 31600 --- [http-nio-8080-exec-10] org.formation.model.Coffee               : ====================>info
+2024-01-31T15:44:43.739Z  WARN 31600 --- [http-nio-8080-exec-10] org.formation.model.Coffee               : ====================>warn
+2024-01-31T15:44:43.739Z ERROR 31600 --- [http-nio-8080-exec-10] org.formation.model.Coffee               : ====================>error
+2024-01-31T15:46:22.410Z  INFO 31600 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-01-31T15:46:22.418Z  INFO 31600 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-31T15:46:22.421Z  WARN 31600 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-01-31T15:46:22.421Z  INFO 31600 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-01-31T15:46:22.422Z  INFO 31600 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-01-31T15:46:22.484Z  INFO 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : Starting CoffeeMachine0Application using Java 21.0.2 with PID 31600 (D:\BADJI\Spring_Boot_Projet_formation\CoffeeMachine0\target\classes started by reg_mbadji in D:\BADJI\Spring_Boot_Projet_formation\CoffeeMachine0)
+2024-01-31T15:46:22.484Z DEBUG 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-01-31T15:46:22.484Z  INFO 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : No active profile set, falling back to 1 default profile: "default"
+2024-01-31T15:46:22.577Z  INFO 31600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-31T15:46:22.581Z  INFO 31600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2024-01-31T15:46:22.626Z  INFO 31600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-01-31T15:46:22.627Z  INFO 31600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-01-31T15:46:22.628Z  INFO 31600 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-01-31T15:46:22.639Z  INFO 31600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-01-31T15:46:22.639Z  INFO 31600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 154 ms
+2024-01-31T15:46:22.646Z  INFO 31600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-01-31T15:46:22.648Z  INFO 31600 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:c2a79a04-946e-482f-b5c1-55327bf1c92d user=SA
+2024-01-31T15:46:22.648Z  INFO 31600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-01-31T15:46:22.648Z  INFO 31600 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c2a79a04-946e-482f-b5c1-55327bf1c92d'
+2024-01-31T15:46:22.661Z  INFO 31600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-31T15:46:22.662Z  INFO 31600 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-01-31T15:46:22.664Z  INFO 31600 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-31T15:46:22.680Z  INFO 31600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-31T15:46:22.682Z  INFO 31600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-31T15:46:22.750Z  WARN 31600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-31T15:46:22.800Z  INFO 31600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-01-31T15:46:22.807Z  INFO 31600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-01-31T15:46:22.808Z  INFO 31600 --- [restartedMain] o.formation.CoffeeMachine0Application    : Started CoffeeMachine0Application in 0.35 seconds (process running for 269.4)
+2024-01-31T15:46:22.810Z  INFO 31600 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-01-31T15:55:49.860Z  INFO 31600 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 11 class path changes (0 additions, 4 deletions, 7 modifications)
+2024-01-31T15:55:49.864Z  INFO 31600 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-31T15:55:49.865Z  WARN 31600 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-01-31T15:55:49.866Z  INFO 31600 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-01-31T15:55:49.866Z  INFO 31600 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
