@@ -1,0 +1,12 @@
+org\formation\hibernate\client\TestClientFind.class
+org\formation\hibernate\client\TestClientRemove.class
+org\formation\hibernate\client\TestClientPersist3.class
+org\formation\hibernate\client\TestClient.class
+org\formation\hibernate\client\TestClientPersist.class
+org\formation\hibernate\entity\Contrat.class
+org\formation\hibernate\client\TestAddressPersist.class
+org\formation\hibernate\entity\Person.class
+org\formation\hibernate\client\TestAddressFind.class
+org\formation\hibernate\entity\Address.class
+org\formation\hibernate\entity\Customer.class
+org\formation\hibernate\entity\Person2.class
