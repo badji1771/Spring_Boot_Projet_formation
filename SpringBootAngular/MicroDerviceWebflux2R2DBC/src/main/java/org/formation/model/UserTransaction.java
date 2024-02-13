@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
-@Table("usertransaction")
+@Table("user_transaction")
 public class UserTransaction {
 
 	@Id

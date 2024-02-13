@@ -10,6 +10,7 @@ public class User {
 	private Integer id;
 	private String name;
 	private Integer balance;
+	
 	public User() {
 		super();
 	}
